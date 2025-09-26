@@ -1,0 +1,14 @@
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/bin/Debug/net9.0/Lab3
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/bin/Debug/net9.0/Lab3.deps.json
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/bin/Debug/net9.0/Lab3.runtimeconfig.json
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/bin/Debug/net9.0/Lab3.dll
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/bin/Debug/net9.0/Lab3.pdb
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.AssemblyInfoInputs.cache
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.AssemblyInfo.cs
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.csproj.CoreCompileInputs.cache
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.dll
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/refint/Lab3.dll
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.pdb
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.genruntimeconfig.cache
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/ref/Lab3.dll
