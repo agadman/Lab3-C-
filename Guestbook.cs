@@ -1,5 +1,7 @@
-using System.Runtime.InteropServices;
+using System.Collections.Generic;
+using System.IO;
 using System.Text.Json;
+
 
 namespace posts 
 {
@@ -10,21 +12,21 @@ namespace posts
         private List<Post> posts = new List<Post>();
 
         public GuestBook()
-{
-    if (File.Exists(filename))
-    {
-        string jsonString = File.ReadAllText(filename);
+        {
+            if (File.Exists(filename))
+            {
+                string jsonString = File.ReadAllText(filename);
 
-        if (!string.IsNullOrWhiteSpace(jsonString)) // kontroll så filen inte är tom
-        {
-            posts = JsonSerializer.Deserialize<List<Post>>(jsonString)!;
+                if (!string.IsNullOrWhiteSpace(jsonString)) 
+                {
+                    posts = JsonSerializer.Deserialize<List<Post>>(jsonString)!;
+                }
+                else
+                {
+                    posts = new List<Post>(); 
+                }
+            }
         }
-        else
-        {
-            posts = new List<Post>(); // tom lista om filen är tom
-        }
-    }
-}
 
         public Post AddPost(string owner, string content)
         {

@@ -12,3 +12,4 @@
 /Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.pdb
 /Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.genruntimeconfig.cache
 /Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/ref/Lab3.dll
+/Users/annikagadman/Documents/MIUN/Kurser/ProgrammeringCSharp.NET/Lab3/obj/Debug/net9.0/Lab3.sourcelink.json
