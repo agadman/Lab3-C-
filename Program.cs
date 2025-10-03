@@ -13,7 +13,7 @@ namespace posts
             {
                 Console.Clear();
                 Console.CursorVisible = false;
-                Console.WriteLine("Guestbook\n\n");
+                Console.WriteLine("Gästbok\n\n");
 
                 Console.WriteLine("1. Skapa inlägg");
                 Console.WriteLine("2. Ta bort inlägg");
@@ -23,7 +23,7 @@ namespace posts
                 Console.WriteLine("Inlägg");
                 foreach (Post post in guestbook.getPosts())
                 {
-                    Console.WriteLine($"{i}. {post.Owner}: {post.Content}");
+                    Console.WriteLine($"[{i}] {post.Owner} - {post.Content}");
                     i++;
                 }
 
@@ -36,8 +36,19 @@ namespace posts
                         string owner = Console.ReadLine() ?? "";
                         Console.Write("Ange inlägg: ");
                         string content = Console.ReadLine() ?? "";
-                        if (!String.IsNullOrEmpty(owner) && !String.IsNullOrEmpty(content)) guestbook.AddPost(owner, content);
+
+                        if (!String.IsNullOrWhiteSpace(owner) && !String.IsNullOrWhiteSpace(content))
+                        {
+                            guestbook.AddPost(owner, content);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Du måste skriva både författare och inlägg!");
+                            Console.WriteLine("Tryck på valfri tangent för att fortsätta...");
+                            Console.ReadKey(true);
+                        }
                         break;
+
                     case '2':
                         Console.CursorVisible = true;
                         Console.Write("Ange index att radera: ");
